@@ -1,0 +1,16 @@
+[project]
+name = "decision-debate-room"
+version = "0.1.0"
+description = "Multi-agent AI debate room that helps you make everyday decisions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph",
+    "langchain-core",
+    "pydantic",
+    "python-dotenv",
+    "langchain-google-genai",
+    "langchain-groq",
+    "langchain-cerebras",
+    "streamlit",
+]
